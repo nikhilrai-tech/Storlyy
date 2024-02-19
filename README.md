@@ -16,7 +16,7 @@ This project is a Django-based web application that allows users to submit their
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/your-username/user-form-project.git
+    git clone https://github.com/nikhilrai-tech/Storlyy.git
     ```
 
 2. **Navigate to the project directory:**
@@ -50,17 +50,6 @@ This project is a Django-based web application that allows users to submit their
     python manage.py runserver
     ```
 
-7. **Start Celery worker (in a separate terminal):**
-
-    ```bash
-    celery -A user_form_project worker -l info
-    ```
-
-8. **(Optional) Start RabbitMQ server if not already running:**
-
-    ```bash
-    rabbitmq-server
-    ```
 
 ## Usage
 
@@ -69,14 +58,3 @@ This project is a Django-based web application that allows users to submit their
 3. Upon successful submission, you will receive a confirmation email at the provided email address.
 4. To view all submitted forms, navigate to http://localhost:8000/user-form/list_forms/.
 
-## Deployment
-
-This project can be deployed to a production environment using platforms like Heroku, PythonAnywhere, or any other cloud server provider. Make sure to configure the necessary environment variables for production settings, including database and email configurations.
-
-## Contributing
-
-Contributions are welcome! If you would like to contribute to this project, feel free to submit a pull request with your changes.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
