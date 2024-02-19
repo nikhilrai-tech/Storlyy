@@ -49,12 +49,3 @@ This project is a Django-based web application that allows users to submit their
     ```bash
     python manage.py runserver
     ```
-
-
-## Usage
-
-1. Access the web application at http://localhost:8000/user-form/.
-2. Fill out the form with your details and submit it.
-3. Upon successful submission, you will receive a confirmation email at the provided email address.
-4. To view all submitted forms, navigate to http://localhost:8000/user-form/list_forms/.
-
